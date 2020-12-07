@@ -11,8 +11,8 @@ body {
 .header {
     width: 30%;
     margin: 50px auto 0px;
-    color: white;
-    background: #5f9ea0;
+    color: #E3DFD7;
+    background: #253E66;
     text-align: center;
     border: 1px solid #b0c4de;
     border-bottom: none;
@@ -64,8 +64,8 @@ form {
 .btn {
     padding: 10px;
     font-size: 15px;
-    color: white;
-    background: #5f9ea0;
+    color: #E3DFD7;
+    background: #253E66;
     border: none;
     border-radius: 5px;
 }

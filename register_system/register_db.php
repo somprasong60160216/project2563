@@ -11,16 +11,16 @@
         $password_2 = mysqli_real_escape_string($conn, $_POST['password_2']);
 
         if (empty($username)) {
-            array_push($errors, "Username is required");
-            $_SESSION['error'] = "Username is required";
+            array_push($errors, "โปรดระบุชื่อผู้ใช้");
+            $_SESSION['error'] = "โปรดระบุชื่อผู้ใช้";
         }
         if (empty($email)) {
-            array_push($errors, "Email is required");
-            $_SESSION['error'] = "Email is required";
+            array_push($errors, "โปรดระบุอีเมลล์");
+            $_SESSION['error'] = "โปรดระบุอีเมลล์";
         }
         if (empty($password_1)) {
-            array_push($errors, "Password is required");
-            $_SESSION['error'] = "Password is required";
+            array_push($errors, "โปรดใส่รหัสผ่าน");
+            $_SESSION['error'] = "โปรดใส่รหัสผ่าน";
         }
         if ($password_1 != $password_2) {
             array_push($errors, "The two passwords do not match");

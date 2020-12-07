@@ -32,7 +32,7 @@
         <?php endif ?>
 
         <div class="input-group">
-            <label for="username">ชื่อในระบบ</label>
+            <label for="username">ชื่อผู้ใช้</label>
             <input type="text" name="username">
         </div>
 
