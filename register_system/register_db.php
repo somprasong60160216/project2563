@@ -23,8 +23,8 @@
             $_SESSION['error'] = "โปรดใส่รหัสผ่าน";
         }
         if ($password_1 != $password_2) {
-            array_push($errors, "The two passwords do not match");
-            $_SESSION['error'] = "The two passwords do not match";
+            array_push($errors, "รหัสผ่านทั้งสองไม่ตรงกัน");
+            $_SESSION['error'] = "รหัสผ่านทั้งสองไม่ตรงกัน";
         }
 
         $user_check_query = "SELECT * FROM user WHERE username = '$username' OR email = '$email' LIMIT 1";
@@ -33,10 +33,10 @@
 
         if ($result) { // if user exists
             if ($result['username'] === $username) {
-                array_push($errors, "Username already exists");
+                array_push($errors, "ชื่อผู้ใช้อยู่แล้ว");
             }
             if ($result['email'] === $email) {
-                array_push($errors, "Email already exists");
+                array_push($errors, "มีอีเมลอยู่แล้ว");
             }
         }
 

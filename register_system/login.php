@@ -32,7 +32,7 @@
         <?php endif ?>
 
         <div class="input-group">
-            <label for="username">ชื่อผู้ใช้</label>
+            <label for="username" or for="email">ชื่อผู้ใช้ หรือ อีเมลล์</label>
             <input type="text" name="username">
         </div>
 
@@ -44,7 +44,7 @@
             <button type="submit" name="login_user" class="btn">เข้าสู่ระบบ</button>
         </div>
         <p> ยังไม่มีบัญชีผู้ใช้งาน ? <a href="register.php"> สมัครสมาชิก </a></p>
-        <p> ลืมรหัสผ่าน ? <a href="register.php"> ลืมรหัสผ่าน </a></p>
+        <p> ลืมรหัสผ่าน ? <a href="forgotpassword.php"> ลืมรหัสผ่าน </a></p>
         
     </form>
 

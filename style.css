@@ -8,8 +8,7 @@ body{
   
         margin: 0;
         padding: 0;
-    
-    
+
 }
 
 .nav ul{
@@ -46,7 +45,7 @@ body{
         border-bottom: none;
         height: 50px;
         line-height: 50px;
-        font-size: 1.0em;
+        font-size: 1.5em;
         display: inline-block;
         margin-right: -4px;
     }

@@ -9,11 +9,11 @@
         $password = mysqli_real_escape_string($conn, $_POST['password']);
 
         if (empty($username)) {
-            array_push($errors, "Username is required");
+            array_push($errors, "ต้องระบุชื่อผู้ใช้");
         }
 
         if (empty($password)) {
-            array_push($errors, "Password is required");
+            array_push($errors, "ต้องการรหัสผ่าน");
         }
 
         if (count($errors) == 0) {
